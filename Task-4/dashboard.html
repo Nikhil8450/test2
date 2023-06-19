@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dashboard</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburgerMenu = document.querySelector(".hamburger-menu");
+        const hamburgerIcon = document.querySelector(
+          ".hamburger-menu .hamburger-icon"
+        );
+
+        hamburgerIcon.addEventListener("click", function () {
+          hamburgerMenu.classList.toggle("open");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <img src="icons/logo-used-in-header.svg" alt="Quantum logo" />
+      <div class="path">
+        <nav class="menu-content">
+          <div class="path">
+            <ul>
+              <li><a class="dashboard" href="#">DASHBOARD</a></li>
+              <li><a href="#">CONTENT</a></li>
+              <li><a href="#">USERS</a></li>
+              <li><a href="#">REPORTS</a></li>
+              <li><a href="#">ADMIN</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="icon-1">
+          <img class="icon" src="icons/alerts.svg" />
+          <span class="badge">2</span>
+        </div>
+        <div class="icon-2">
+          <img class="icon" src="icons/announcements.svg" />
+          <span class="badge">1</span>
+        </div>
+        <div class="icon-1">
+          <img class="account" src="images/_DSC6655.JPG" alt="" />
+          <span class="badge-1">T</span>
+        </div>
+        <div class="hamburger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="solidline">
+        <div class="courses-classes">
+          <div class="courses">
+            <img src="icons/courses.svg" alt="check courses" />
+            <p><b>4</b> courses</p>
+          </div>
+          <div class="classes">
+            <img src="icons/classes.svg" alt="check classes" />
+            <p><b>4</b> classes</p>
+          </div>
+        </div>
+        <div class="sort">
+          <p>showing 4 of 4 courses</p>
+          <p class="sort-1">
+            Sort By:
+            <span class="sort-2"
+              >Course Name <img class="arrow-down-1" src="icons/arrow-down.svg"
+            /></span>
+            <img class="arrow-down-1" src="icons/sort.svg" />
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="white-box-1">
+          <div class="top-section">
+            <img class="images" src="images/imageMask.png" alt="" />
+            <div>
+              <div class="section-3">
+                <h3>Acceleration</h3>
+                <img class="symbols" src="icons/favourite.svg" alt="" />
+              </div>
+              <div class="mid-section">
+                <p class="grade">
+                  Physics Grade 7 <span class="green">+2</span>
+                </p>
+                <p><b>4</b> Units <b>18</b> Lessons <b>24</b> Topics</p>
+                <div class="section-2">
+                  <h3>Mr. Frank's Class B</h3>
+                  <img class="symbols" src="icons/arrow-down.svg" alt="" />
+                </div>
+                <p>50 Students 21-jan-2020 21-Aug-2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="icon-3">
+            <img class="symbols" src="icons/preview.svg" alt="" />
+            <img class="symbols" src="icons/manage course.svg" alt="" />
+            <img class="symbols" src="icons/grade submissions.svg" alt="" />
+            <img class="symbols" src="icons/reports.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="white-box-1">
+          <div class="top-section">
+            <img class="images" src="images/imageMask-1.png" alt="" />
+            <div>
+              <div class="section-3">
+                <h3>Displacement, Velocity and Speed</h3>
+                <img class="symbols" src="icons/favourite.svg" alt="" />
+              </div>
+              <div class="mid-section">
+                <p class="grade">
+                  Physics 2 Grade 6 <span class="green">+3</span>
+                </p>
+                <p><b>2</b> Units <b>15</b> Lessons <b>20</b> Topics</p>
+                <div class="section-2">
+                  <h3>No Classes</h3>
+                  <img class="symbols" src="icons/arrow-down.svg" alt="" />
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="icon-3">
+            <img class="symbols" src="icons/preview.svg" alt="" />
+            <img class="symbols" src="icons/manage course.svg" alt="" />
+            <img class="symbols" src="icons/grade submissions.svg" alt="" />
+            <img class="symbols" src="icons/reports.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="white-box-2">
+          <div class="top-section">
+            <img class="images" src="images/imageMask-3.png" alt="" />
+            <div>
+              <div class="section-3">
+                <h3>
+                  Introduction to Biology Micro organism and how they affec..
+                </h3>
+                <img class="symbols" src="icons/favourite.svg" alt="" />
+              </div>
+              <div class="mid-section">
+                <p class="grade">
+                  Physics Grade 4 <span class="green">+1</span>
+                </p>
+                <p><b>5</b> Units <b>16</b> Lessons <b>22</b> Topics</p>
+                <div class="section-2">
+                  <h3>All Classes</h3>
+                  <img class="symbols" src="icons/arrow-down.svg" alt="" />
+                </div>
+                <p>300 Students</p>
+              </div>
+            </div>
+          </div>
+          <div class="icon-3">
+            <img class="symbols" src="icons/preview.svg" alt="" />
+            <img class="symbols" src="icons/manage course.svg" alt="" />
+            <img class="symbols" src="icons/grade submissions.svg" alt="" />
+            <img class="symbols" src="icons/reports.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="white-box-3">
+          <div>
+            <p class="red">EXPIRED</p>
+          </div>
+          <div class="top-section">
+            <img class="images" src="images/imageMask-2.png" alt="" />
+            <div>
+              <div class="section-3">
+                <h3>Introduction to High School Mathematics</h3>
+              </div>
+              <div class="mid-section">
+                <p class="grade">
+                  Mathematics Grade 8 <span class="green">+3</span>
+                </p>
+                <div class="section-2">
+                  <h3>Mr. Frank's Class A</h3>
+                  <img class="symbols" src="icons/arrow-down.svg" alt="" />
+                </div>
+                <p>44 Students 14-Oct-2020 20-Oct-2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="icon-3">
+            <img class="symbols" src="icons/preview.svg" alt="" />
+            <img class="symbols" src="icons/manage course.svg" alt="" />
+            <img class="symbols" src="icons/grade submissions.svg" alt="" />
+            <img class="symbols" src="icons/reports.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="redirect">
+        <a href="#">About</a>
+        <a href="#">Contact us</a>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="icons/logo used in footer.svg" alt="footer Quantum logo" />
+      <p class="copy">
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Copyright &#169; 2020-2021
+        <b>Zeus System Pvt. Ltd.</b>&nbsp; All rights reserved
+      </p>
+    </div>
+    <div class="hamburger-menu">
+      <nav>
+        <ul>
+          <li><a href="#">DASHBOARD</a></li>
+          <li><a href="#">CONTENT</a></li>
+          <li><a href="#">USERS</a></li>
+          <li><a href="#">REPORTS</a></li>
+          <li><a href="#">ADMIN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
