@@ -6,7 +6,7 @@
   }
 
 body {
-    border: 2px solid powderblue;
+    /*border: 2px solid powderblue;*/
     display: flex;
     width: 457px;
     height: 138px;
@@ -84,5 +84,4 @@ body {
 .t1 {
     margin-top: 0;
     font-size: 15px;
-    font-size: medium;
 }
