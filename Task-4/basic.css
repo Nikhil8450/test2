@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: 'Quicksand';
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(fonts/Quicksandfont-1/static/Quicksand-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-size: medium;
+}
+
+.header {
+    background-image: url(images/header-pattern.png);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    border-bottom: 2px solid #31b9e4;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.footer {
+    background-color: #e0e1e1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Quicksand';
+    font-weight: normal;
+}
+
+.copy{
+    font-family: 'Quicksand';
+    color: #7a7a7a;
+    word-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+    padding-top: 40px;
+}
+  
+.login-form {
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    border-top: 3px solid #31b9e4 ;
+}
+  
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.login-form p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-group {
+    display: flex;
+    margin-top: 5px;
+}
+  
+.forgot-link {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #1f7a54;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+  
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+.remember-me label {
+    margin-left: 5px;
+}
+  
+button[type="submit"] {
+    margin-left: 100px;
+    width: 50%;
+    padding: 10px;
+    background-color: #3fd28b;
+    color: #275a4d;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.line1 {
+    display: inline;
+    margin-right: 90px;
+    font-family: 'Quicksand';
+    color: #222222;
+    font-size: large;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.line2 {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.arrow-down {
+    display: inline;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.arrow {
+    border-bottom: 1px solid gray;
+}
+
+.state {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+
+.line5 {
+    margin-top: 20px;
+}
+
+.redirect {
+    text-align: center;
+    color: #1f7a54;
+    text-decoration: none;
+    margin-top: 40px;
+    word-spacing: 8px;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        font-size: 12px;
+    }
+}  

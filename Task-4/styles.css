@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: 'Quicksand';
+
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(fonts/Quicksandfont-1/static/Quicksand-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-size: medium;
+}
+
+.header {
+    background-image: url(images/header-pattern.png);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    border-bottom: 2px solid #31b9e4;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer {
+    background-color: #e0e1e1;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Quicksand';
+    font-weight: normal;
+}
+
+.copy {
+    font-family: 'Quicksand';
+    margin-bottom: 0;
+    color: #7a7a7a;
+}
+
+.courses-classes {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #3fd28b;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    border-bottom: 3px solid black;
+    flex-wrap: nowrap;
+    height: 40px;
+    padding-bottom: 0px;
+}
+
+.classes {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 40px;
+    padding-right: 220px;
+    padding-left: 60px;
+}
+
+.page {
+    margin: 20px 20px 0px 20px;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+.sort-1 {
+    display: flex;
+}
+
+.sort-2 {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.arrow-down-1 {
+    margin-left: 5px;
+}
+
+.solidline {
+    border-bottom: 1px solid gray;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    word-spacing: 5px;
+    margin-bottom: 0;
+}
+
+.white-box-1, .white-box-2 {
+    width: 500px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 0;
+    margin: 0 10px 20px;
+}
+
+.white-box-3 {
+    flex: 0 1 520px;
+    height: 290px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 0 10px 20px;
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .box {
+        justify-content: flex-start;
+    }
+
+    .white-box-1,
+    .white-box-2 {
+        margin: 0 5px 20px;
+    }
+}
+
+.redirect {
+    text-align: center;
+    color: #1f7a54;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.symbols {
+    height: 25px;
+    width: 25px;
+}
+
+nav {
+    color: #3fd28b;
+    font-size: small;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #3fd28b;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.icon {
+    position: relative;
+    margin: 0;
+    display: flex;
+}
+
+.icon-1,
+.icon-2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.account {
+    height: 25px;
+    border-radius: 100%;
+    border: 2px solid #1f7a54;
+}
+.badge {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.badge-1 {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.dashboard {
+    color: #fff;
+    border-bottom: 3px solid white;
+    padding-bottom: 17px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+}
+
+.mid-section {
+    margin-left: 20px;
+}
+
+.section-2 {
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.icon-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.images {
+    height: 200px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.red {
+    color: rgb(230, 4, 4);
+    font-size: smaller;
+    background-color: rgb(255, 187, 187);
+    width: 55px;
+    margin:0;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding-left: 0;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+    .header {
+      display: flex;
+      align-items: center;
+    }
+  
+    .header img {
+      margin-right: 20px;
+    }
+  
+    nav {
+      display: flex;
+      align-items: center;
+    }
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+  
+    nav li {
+      margin-left: 20px;
+    }
+  
+    .hamburger-menu {
+      display: block;
+      background-color: #31b9e4;
+    }
+  
+    .menu-content {
+      display: flex;
+    }
+}
+  
+@media (max-width: 767px) {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .header img {
+      margin-right: 20px;
+    }
+  
+    nav {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger-menu .line {
+      width: 25px;
+      height: 3px;
+      background-color:#3fd28b;
+      margin: 5px 0;
+    }
+  
+    .menu-content {
+      display: none;
+    }
+  
+    .menu-content.active {
+      display: block;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}  
+
+.path {
+    display: flex;
+    line-height: 40px;
+}
+
+h3 {
+    margin-top: 0;
+}
+  
+.grade {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.green {
+    color: green;
+    text-decoration: none;
+}
+
