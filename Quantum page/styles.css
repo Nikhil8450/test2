@@ -187,6 +187,7 @@ a {
     margin: 0;
 }
 
+
 .account {
     height: 25px;
     border-radius: 100%;
@@ -305,12 +306,13 @@ a {
     }
   
     .hamburger-menu {
-      display: block;
+      display: inline;
       background-color: #31b9e4;
     }
   
     .menu-content {
       display: flex;
+
     }
 }
   
@@ -330,24 +332,24 @@ a {
     }
   
     .hamburger-menu {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .hamburger-menu .line {
-      width: 25px;
-      height: 3px;
-      background-color:#3fd28b;
-      margin: 5px 0;
-    }
-  
-    .menu-content {
-      display: none;
-    }
-  
-    .menu-content.active {
-      display: block;
-    }
+        display: block;
+        cursor: pointer;
+      }
+      
+      .hamburger-menu .line {
+        width: 25px;
+        height: 3px;
+        background-color: #3fd28b;
+        margin: 5px 0;
+      }
+      
+      .menu-content {
+        display: none;
+      }
+      
+      .menu-content.active {
+        display: block;
+      }      
 
     .footer {
         font-size: 12px;
