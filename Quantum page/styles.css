@@ -2,6 +2,8 @@ body {
     margin: 0;
     background-color: #eeeeee;
     font-family: 'Quicksand';
+    height: 900px;
+    width: 100%;
 
 }
 
@@ -60,7 +62,6 @@ body {
     align-content: center;
     width: 600px;
     border-bottom: 3px solid black;
-    flex-wrap: nowrap;
     height: 40px;
     padding-bottom: 0px;
 }
@@ -69,8 +70,8 @@ body {
     display: flex;
     flex-wrap: nowrap;
     height: 40px;
-    padding-right: 220px;
-    padding-left: 60px;
+    padding-right: 250px;
+    padding-left: 100px;
 }
 
 .page {
@@ -104,7 +105,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
     word-spacing: 5px;
     margin-bottom: 0;
 }
@@ -143,7 +144,18 @@ body {
     text-align: center;
     color: #1f7a54;
     text-decoration: none;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
+}
+
+.symbols {
+    height: 25px;
+    width: 25px;
+}
+
+nav {
+    color: #3fd28b;
+    font-size: small;
+    text-align: right;
 }
 
 .symbols {
@@ -306,8 +318,7 @@ a {
     }
   
     .hamburger-menu {
-      display: inline;
-      background-color: #31b9e4;
+      display: none;
     }
   
     .menu-content {
@@ -317,6 +328,9 @@ a {
 }
   
 @media (max-width: 767px) {
+    .body {
+        width: 800px;
+    }
     .header {
       display: flex;
       align-items: center;
@@ -328,23 +342,26 @@ a {
     }
   
     nav {
-      display: none;
-    }
+      display: block;
+        }
   
     .hamburger-menu {
         display: block;
         cursor: pointer;
       }
-      
-      .hamburger-menu .line {
-        width: 25px;
-        height: 3px;
-        background-color: #3fd28b;
-        margin: 5px 0;
-      }
-      
+
       .menu-content {
         display: none;
+        position: absolute;
+        left: 1;
+        right: 0;
+        border: 1px solid none;
+        background-color: white;
+        margin-top: 45px;
+        margin-right: 10px;
+        height: fit-content;
+        width: 210px;
+        text-align: start;
       }
       
       .menu-content.active {
@@ -353,6 +370,11 @@ a {
 
     .footer {
         font-size: 12px;
+    }
+
+    .dashboard {
+        color: #3fd28b;
+        border-bottom: none;
     }
 }  
 
@@ -379,3 +401,4 @@ p {
     text-decoration: none;
 }
 
+  
